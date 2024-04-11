@@ -1086,7 +1086,7 @@ async function whoAreYou() {
     allowOutsideClick: false,
     allowEscapeKey: false,
     background: "radial-gradient(#393939, #000000)",
-    title: "Videolify 😉",
+    title: "Safely Share",
     position: "center",
     input: "text",
     inputPlaceholder: "Enter your name",
@@ -4380,7 +4380,7 @@ function shareRoomMeetingURL(checkScreen = false) {
     } else if (result.isDenied) {
       let message = {
         email: "",
-        subject: "Please join our Conference using Videolify.",
+        subject: "Please join our Conference using Safely Share.",
         body: "Click to join: " + myRoomUrl,
       };
       shareRoomByEmail(message);
@@ -7842,18 +7842,18 @@ function showAbout() {
   Swal.fire({
     background: swalBackground,
     position: "center",
-    title: "<strong>Videolify Made with ❤️</strong>",
-    imageAlt: "About",
+    title: "<strong>Safely Share</strong>",
+    imageAlt: "",
     imageUrl: aboutImg,
     html: `
         <br/>
         <div id="about">
-            <b style="color:blue">Open Source</b> project on
-            <a href="https://github.com/jaideep25/videolify" target="_blank"><br/></br>
-            <img alt="Github" src="../images/github.png"></a><br/><br/>
+            <b style="color:blue"></b> project on
+            <a href="#" target="_blank"><br/></br>
+            <img alt="" src="#"></a><br/><br/>
         </div>
         </br>
-        <div id="author">Authors : <a href="https://github.com/Jaideep25/" target="_blank"> Jaideep25</a> & <a href="https://github.com/miroslavpejic85" target="_blank"> Miroslav Pejic</a></div>
+        <div id="author"><a href="#" target="_blank"></a> <a href="#" target="_blank"></a></div>
         `,
     showClass: {
       popup: "animate__animated animate__fadeInDown",
